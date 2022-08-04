@@ -176,7 +176,10 @@ post[0].user_id # =>  '1'
 # 3
 # add in a single user 
 
-repo = postRepository.newpost =post.newpost.username = 'username3'post.email = 'email3'
+repo = postRepository.new
+post =post.new
+post.username = 'username3'
+post.email = 'email3'
 repo.createpost)
 post = repo.all
 
